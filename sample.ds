@@ -18,10 +18,12 @@ job('dsl_child2')
   }
   
   steps 
+
   {
     shell(""" 
 	echo 'Hello world'
 	pwd
-	""")
+	 """)
   }
 }
+
