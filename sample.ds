@@ -1,4 +1,4 @@
-job('dsl_child2')
+job('dsl_child3')
 {
   description('second child job from SEED')
   parameters 
