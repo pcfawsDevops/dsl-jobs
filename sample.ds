@@ -22,6 +22,7 @@ job('dsl_child2')
   {
     shell(""" 
 	echo 'Hello world'
+	echo 'from Git hook'
 	pwd
 	 """)
   }
